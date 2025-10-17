@@ -1,4 +1,5 @@
 import logo from "./logo.png";
+import langgraph from "./tech/langgraph.png"
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -26,10 +27,9 @@ import reactjs from "./tech/reactjs.png";
 import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import threejs from "./tech/threejs.svg";
-import firstTestimonial from './Tars Ken.webp';
-import secondTestimonial from './image.webp';
-import thirdTestimonial from './third testimonial.webp'
-
+import formbuilder from './formbuilder.png'
+import codeagent from './codeagent.png'
+import foodapp from './foodapp.png'
 export {
   logo,
   backend,
@@ -41,17 +41,18 @@ export {
   close,
   css,
   gearXpert,
+  foodapp,
   project2,
   project3,
   mysql,
+  codeagent,
   express,
   aws,
   mui,
-  firstTestimonial,
-  secondTestimonial,
-  thirdTestimonial,
+  formbuilder,
   gsap,
   framer,
+  langgraph,
   figma,
   git,
   html,

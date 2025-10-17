@@ -129,8 +129,7 @@ const Works = () => {
 
       <div className="w-full flex">
         <p className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]">
-          Following projects showcase my skills and experience through real-world examples of my work. Each project is briefly described with links to code repositories and live demos. It reflects my ability to solve complex problems, work with different technologies, and manage projects effectively.
-        </p>
+        “These projects highlight my hands-on experience with AI agents, automation frameworks, and full-stack web development. They demonstrate my ability to build intelligent systems using LangGraph and Autogen, as well as scalable web applications with the MERN stack. Each project reflects my passion for solving complex problems, integrating modern technologies, and delivering impactful, real-world solutions.”        </p>
       </div>
 
       <div className="works-container mt-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-items-center gap-5">

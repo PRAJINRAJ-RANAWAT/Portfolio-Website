@@ -72,9 +72,7 @@ const About = () => {
       </div>
 
       <p ref={paragraphRef} className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]">
-        I'm a skilled software developer with experience in  JavaScript, and expertise in frameworks 
-        like React, Node.js, and Three.js. I'm a quick learner and collaborate closely with clients to create efficient, 
-        scalable, and user-friendly solutions that solve real-world problems. Let's work together to bring your ideas to life!
+      I'm an AI and Machine Learning developer skilled in building intelligent and scalable systems. I work extensively with frameworks like LangChain, LangGraph, Smith, and Autogen to create autonomous and conversational AI solutions. Alongside this, I have strong experience with JavaScript, React, and Node.js for developing full-stack applications. I'm a fast learner who loves solving real-world problems through innovation and technology. Let's collaborate to turn your ideas into impactful AI-driven products!
       </p>
 
       <div className="mt-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 justify-items-center gap-10">

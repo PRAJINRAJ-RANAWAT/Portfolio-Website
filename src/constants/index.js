@@ -5,8 +5,7 @@ import {
   creator,
   mobile,
   web,
-  github,
-  menu,
+  foodapp,
   close,
   css,
   gearXpert,
@@ -14,9 +13,9 @@ import {
   project3,
   mysql,
   express,
-  aws,
+  formbuilder,
   mui,
-  
+  langgraph,
   gsap,
   framer,
   figma,
@@ -28,10 +27,8 @@ import {
   reactjs,
   redux,
   tailwind,
-  threejs,
-  firstTestimonial,
-  secondTestimonial,
-  thirdTestimonial,
+  codeagent,
+  
 } from '../assets'
 
 
@@ -59,11 +56,11 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Full-Stack Developer",
+    title: "AI-ML Developer",
     icon: web,
   },
   {
-    title: "Frontend Developer",
+    title: "Full-Stack Developer",
     icon: mobile,
   },
   {
@@ -71,7 +68,8 @@ const services = [
     icon: backend,
   },
   {
-    title: "Ui UX Designer",
+    
+    title: "Frontend Developer",
     icon: creator,
   },
 ];
@@ -93,24 +91,7 @@ const technologies = [
     name: "React JS",
     icon: reactjs,
   },
-  {
-    name: "gsap",
-    icon: gsap,
-  },
-  {
-    name: "framer",
-    icon: framer,
-  },
-
- 
-  {
-    name: "Three JS",
-    icon: threejs,
-  },
-  {
-    name: "figma",
-    icon: figma,
-  },
+  
   {
     name: "Redux Toolkit",
     icon: redux,
@@ -119,10 +100,7 @@ const technologies = [
     name: "Tailwind CSS",
     icon: tailwind,
   },
-  {
-    name: "Material Ui",
-    icon: mui,
-  },
+  
   {
     name: "Node JS",
     icon: nodejs,
@@ -131,10 +109,7 @@ const technologies = [
     name: "Express Js",
     icon: express,
   },
-  {
-    name: "AWS",
-    icon: aws,
-  },
+
   {
     name: "MongoDB",
     icon: mongodb,
@@ -148,8 +123,11 @@ const technologies = [
     name: "git",
     icon: git,
   },
- 
-
+  {
+    name: "langgraph",
+    icon: langgraph,
+  },
+  
 ];
 
 const experiences = [
@@ -168,45 +146,20 @@ const experiences = [
   },
 ];
 
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Prajinraj proved me wrong.",
-    name: "MD Mustaqeem",
-    designation: "Ecommerce",
-    company: "QuickMart",
-    image: firstTestimonial,
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Prajinraj does.",
-    name: "Abdul Raheman",
-    designation: "Ecommerce Business",
-    company: "justbuyz",
-    image: secondTestimonial,
-  },
-  {
-    testimonial:
-      "After Prajinraj optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "James Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: thirdTestimonial,
-  },
-];
+
 
 const projects = [
   {
-    name: "Tekisky Mart",
+    name: "FormCraft",
     description:
-      "Tekisky Mart is a web-based platform that allows users to search, explore, and purchase a wide range of products from various providers, offering a seamless and efficient shopping experience.",
+      "FormCraft is an AI-powered MERN app that generates responsive web forms from natural language prompts, featuring dynamic fields, real-time previews, and secure MySQL storage.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "mysql",
         color: "white-text-gradient",
       },
       {
@@ -214,60 +167,57 @@ const projects = [
         color: "pink-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "groq ai",
         color: "green-text-gradient",
       },
  
     ],
-    image: project2,
-    source_code_link: "https://github.com/",
+    image: formbuilder,
+    source_code_link: "https://github.com/PRAJINRAJ-RANAWAT/FormCraft-Dynamic-Form-Builder",
   },
   {
-    name: "GearXpert",
+    name: "Code Assistant",
     description:
-      "GearXpert is your ultimate destination for premium auto parts and accessories, Whether you're an automobile enthusiast or a professional, find everything you need to upgrade, repair.",
+      "LangGraph Code Assistant is an AI-powered Streamlit app that generates clean Python code from natural language prompts, auto-fixes errors, and lets you debug and download scripts easily.",
     tags: [
       {
-        name: "react",
+        name: "langgraph",
         color: "blue-text-gradient",
       },
       {
-        name: "emailJs",
+        name: "streamlit",
         color: "green-text-gradient",
       },
       {
-        name: "Gsap",
+        name: "openai",
         color: "pink-text-gradient",
       },
     ],
-    image: gearXpert,
-    source_code_link: "https://github.com/",
+    image: codeagent,
+    source_code_link: "https://github.com/PRAJINRAJ-RANAWAT/Langgraph-Code-Assistant",
   },
   {
-    name: "GoGroove-Ecommerce",
+    name: "Tomato",
     description:
       "Go-Groove is your ultimate destination for premium products across various categories. Whether you're a savvy shopper or a professional, enhance, and simplify your lifestyle—all in one place!",
     tags: [
       {
-        name: "react",
+        name: "html",
         color: "blue-text-gradient",
       },
       {
-        name: "express",
+        name: "css",
         color: "white-text-gradient",
       },
       {
-        name: "node",
-        color: "green-text-gradient",
+        name: "react",
+        color: "pink-text-gradient",
       },
-      {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
+      
     ],
-    image: project3,
-    source_code_link: "https://github.com/",
+    image: foodapp,
+    source_code_link: "https://github.com/PRAJINRAJ-RANAWAT/Food-Delivery-Website",
   },
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, projects };
