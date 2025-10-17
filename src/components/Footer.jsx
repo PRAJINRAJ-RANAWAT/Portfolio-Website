@@ -13,11 +13,19 @@ const Footer = () => {
       </a>
       
       <a
-        href="https://www.linkedin.com/in/prajinraj-ranawat-8257952a2/"
+        href="https://www.linkedin.com/in/prajinraj-ranawat-4189b338a/"
         target="_blank"
         rel="noopener noreferrer"
       >
         <FaLinkedin size={24} />
+      </a>
+
+      <a
+        href="https://www.instagram.com/prajinraj.ai?igsh=eTRoejgyZHVsa2li"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <FaInstagram size={24} />
       </a>
     </footer>
   );
